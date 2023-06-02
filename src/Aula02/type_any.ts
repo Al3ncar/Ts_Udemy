@@ -1,5 +1,5 @@
-// UTILIZE ANY EM ULTIMO CASO 
-const returnMsg = (msg: any) => {return msg;};
+// UTILIZE ANY EM ULTIMO CASO
+export const returnMsg = (msg: any) => {return msg;};
 
 console.log(returnMsg([1, 2, 3]));
 console.log(returnMsg("Olá, tudo bem??"));
