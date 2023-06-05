@@ -18,16 +18,16 @@ console.log(dadosCliente3);
 
 
 const dadosCliente4: [number, string, ...string[]] = [1, 'NOME'];
-console.log(dadosCliente4)
+console.log(dadosCliente4);
 
 
-console.log('') // espaço no console
+console.log(''); // espaço no console
 
 // podemos mudar o valor do elemento do array,
 // porem deve seguir o mesmo tipo que foi declaro em sua raiz;
 
 dadosCliente1[0] = 5; // type number
-dadosCliente1[1] = 'Se ta doido' // type string
+dadosCliente1[1] = 'Se ta doido'; // type string
 console.log(dadosCliente1);
 
 
@@ -37,12 +37,12 @@ dadosCliente2[2] = 'Alencar'; // type string
 console.log(dadosCliente2);
 
 
-dadosCliente3[2] = "Megan" // declaração opcional
+dadosCliente3[2] = "Megan"; // declaração opcional
 console.log(dadosCliente3);
 
 
 // devido a ...string[] podemos adicionar diversões elementos dentro desse array, sempre usando o  indice
 dadosCliente4[2] = 'Lu';
 dadosCliente4[3] = 'Maikon';
-dadosCliente4[4] = 'Ester'
-dadosCliente4[5] = 'Vitoria'
+dadosCliente4[4] = 'Ester';
+dadosCliente4[5] = 'Vitoria';
