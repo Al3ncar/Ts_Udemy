@@ -42,7 +42,21 @@ console.log(dadosCliente3);
 
 
 // devido a ...string[] podemos adicionar diversões elementos dentro desse array, sempre usando o  indice
+
 dadosCliente4[2] = 'Lu';
 dadosCliente4[3] = 'Maikon';
 dadosCliente4[4] = 'Ester';
 dadosCliente4[5] = 'Vitoria';
+
+
+console.log(''); // espaço no console
+
+
+//readonly array
+
+    //Só para leitura não poder ser manipulado
+    const array: readonly string[] = ['Igor', 'Alencar'];
+    const arry2: ReadonlyArray<string> = ['Igor', 'Alencar'];
+
+    console.log(array);
+    console.log(arry2);
