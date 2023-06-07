@@ -1,3 +1,5 @@
+// Type object
+
 const objectA:{
 
     chaveA: string; // Estamos tipando os elementos que estão no objectA
