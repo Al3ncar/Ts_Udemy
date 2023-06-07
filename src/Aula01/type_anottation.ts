@@ -52,7 +52,7 @@ const simbolo: symbol = Symbol('qualquer symbol')
     function soma2 (x: number, y: number):number {return x + y};
     const result2 = soma(20, 30);
 
-    // function inteira
 
-    const soma3: (x:number, y:number) => number = (x, y) => x + y;
-    const soma4: (x:number, y:number) => number = (x, y) => x + y;
+    // function inteira
+        const soma3: (x:number, y:number) => number = (x, y) => x + y;
+        const soma4: (x:number, y:number) => number = (x, y) => x + y;
