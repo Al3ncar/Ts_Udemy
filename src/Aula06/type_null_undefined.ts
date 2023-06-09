@@ -19,3 +19,8 @@ export function createPerson (
 };
 
 // Quando o '?' é atribuido a uma tipo deixamos ele opcional
+
+export function squareOf(x: any){
+    if(typeof x === 'number') return x * x;
+    return null
+}; ''
