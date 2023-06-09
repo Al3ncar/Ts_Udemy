@@ -1,4 +1,4 @@
-// Type object
+/* // Type object
 
 const objectA:{
 
@@ -28,3 +28,26 @@ console.log(objectA);
     objectA.chaveE = 'nova chave: chave E'; // Adcionando novos elementos no objeto
 
     console.log(objectA);
+ */
+
+    export const people : {
+        p1: string,
+        p2: string,
+        p3: string,
+        p4: string,
+        p5: string,
+        [key: string]: unknown,
+    } = {
+        p1: 'Pessoa 1',
+        p2: 'Pessoa 2',
+        p3: 'Pessoa 3',
+        p4: 'Pessoa 4',
+        p5: 'Pessoa 5'
+    }
+
+    people.p1 = 'Pessoa01'
+    people.p2 = 'Pessoa02'
+    people.p3 = 'Pessoa03'
+    people.p4 = 'Pessoa04'
+    people.p5 = 'Pessoa05'
+    
