@@ -6,4 +6,4 @@ export const people = {
         console.log(this.name + " " + this.lastName)
     }
 }
-people.returnFullName()
+people.returnFullName();
