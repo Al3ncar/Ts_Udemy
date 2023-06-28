@@ -70,6 +70,11 @@ console.log(Cores4[10]) // AMARELO DEV
 console.log(Cores4[100]) // VERDE
 console.log(Cores4[200]) // AZUL TURQUESA
 
+
+console.log('') // espaço no console
+console.log('') // espaço no console
+
+
 // Exemplo de desordem 
 
 enum Cores5 {
@@ -85,3 +90,42 @@ console.log(Cores5[10])
 console.log(Cores5[100])
 console.log(Cores5[200])
 console.log(Cores5.PRETO)
+
+
+console.log('') // espaço no console
+console.log('') // espaço no console
+
+
+// Arrumando a ordem 
+// Para eu poder arrumar essa ordem devemos fazer desse modo
+
+enum Cores6 {
+    LARANJA = 10,
+    DOURADO = 100,
+    PRATA = 200,
+    PRETO = 'PRETO',
+    AMARELO = 300, // executa um erro por não saber qual a proxima sequencia
+    BRANCO, 
+}
+
+console.log(Cores6.PRETO)
+console.log(Cores6[300])
+console.log(Cores6.BRANCO)
+
+// Unificação do enum
+
+// Podemos unir ambos enum's 
+
+enum Cores7{
+    VERMELHO = 10,
+    ROSA = 100,
+    LILAS = 200,
+}
+
+enum Cores7{
+    AQUA = 'AQUA',
+    VIOLETA = 201,
+    CHUMBO,
+}
+
+console.log(Cores7)
