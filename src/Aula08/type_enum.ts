@@ -112,6 +112,10 @@ console.log(Cores6.PRETO)
 console.log(Cores6[300])
 console.log(Cores6.BRANCO)
 
+console.log('') // espaço no console
+console.log('') // espaço no console
+
+
 // Unificação do enum
 
 // Podemos unir ambos enum's 
@@ -128,4 +132,33 @@ enum Cores7{
     CHUMBO,
 }
 
-console.log(Cores7)
+console.log(Cores7) 
+
+
+console.log('') // espaço no console
+console.log('') // espaço no console
+
+
+// Enum em functtions
+
+enum Cores8{
+    AQUA,
+    VIOLETA,
+    CHUMBO,
+    LARANJA,
+    DOURADO,
+    PRATA,
+    PRETO,
+    AMARELO, 
+    BRANCO, 
+}
+
+function escolhaACor(cor: Cores8): void{
+    console.log(Cores8[cor])
+} 
+
+escolhaACor(Cores8.LARANJA)
+escolhaACor(Cores8.PRATA)
+escolhaACor(Cores8.AMARELO)
+escolhaACor(Cores8.AQUA)
+escolhaACor(Cores8.BRANCO)
