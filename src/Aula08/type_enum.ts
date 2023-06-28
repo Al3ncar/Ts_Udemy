@@ -18,6 +18,7 @@ console.log(Cores.ROXO) // 1
 console.log(Cores.VERMELHO) // 0
 
 console.log('') // espaço no console
+console.log('') // espaço no console
 
 
 // Quando criamos um enem de string 
@@ -34,11 +35,19 @@ console.log(Cores2[0]) // RED
 console.log(Cores2[0]) // PURPLE
 console.log(Cores2[0]) // YELLOW
 
+console.log('') // espaço no console
+console.log('') // espaço no console
 
-// Podemos declarar para o enum uma ordem/sequencia
+
+// Podemos declarar para o enum uma ordem/sequencia 
 
 enum Cores3 {
-    "AMARELO DEV",
+    "AMARELO DEV" = 5,// A sequencia ira começar com o numero 5
     VERDE,
    "AZUL TURQUESA",         
 }
+
+console.log(Cores3)
+console.log(Cores3[5]) // AMARELO DEV
+console.log(Cores3[6]) // VERDE
+console.log(Cores3[7]) // AZUL TURQUESA
