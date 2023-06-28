@@ -32,8 +32,8 @@ enum Cores2 {
 
 console.log(Cores2)
 console.log(Cores2[0]) // RED
-console.log(Cores2[0]) // PURPLE
-console.log(Cores2[0]) // YELLOW
+console.log(Cores2[1]) // PURPLE
+console.log(Cores2[2]) // YELLOW
 
 console.log('') // espaço no console
 console.log('') // espaço no console
@@ -51,3 +51,37 @@ console.log(Cores3)
 console.log(Cores3[5]) // AMARELO DEV
 console.log(Cores3[6]) // VERDE
 console.log(Cores3[7]) // AZUL TURQUESA
+
+
+console.log('') // espaço no console
+console.log('') // espaço no console
+
+
+// Outro exemplo de ordem
+
+enum Cores4 {
+    CINZA = 10,
+    MARRON = 100,
+    LARANJA = 200,  
+}
+
+console.log(Cores4)
+console.log(Cores4[10]) // AMARELO DEV
+console.log(Cores4[100]) // VERDE
+console.log(Cores4[200]) // AZUL TURQUESA
+
+// Exemplo de desordem 
+
+enum Cores5 {
+    LARANJA = 10,
+    DOURADO = 100,
+    PRATA = 200,
+    PRETO = 'PRETO',
+    // AMARELO, // executa um erro por não saber qual a proxima sequencia
+}
+
+console.log(Cores5)
+console.log(Cores5[10])
+console.log(Cores5[100])
+console.log(Cores5[200])
+console.log(Cores5.PRETO)
