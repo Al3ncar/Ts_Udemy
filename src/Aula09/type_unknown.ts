@@ -25,4 +25,4 @@ if(typeof x === 'number') console.log(x + y);
 
 // Sempre que voce precisa receber alguma coisa
 // que voce não sabe com antecendencia o que aquela coisa vai ser
-// inves de usar any use unknown  
+// inves de usar any use unknown 
