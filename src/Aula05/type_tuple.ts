@@ -5,7 +5,7 @@
 // com um número fixo de elementos cujos tipos são conhecidos,
 // mas não precisam ser os mesmos.
 
-const dadosCliente1: [number, string] = [ 1 , 'Setadoido'];
+const dadosCliente1: [number, string] = [1, 'Setadoido'];
 console.log(dadosCliente1);
 
 
@@ -54,9 +54,9 @@ console.log(''); // espaço no console
 
 //readonly array
 
-    //Só para leitura não poder ser manipulado
-    const array: readonly string[] = ['Igor', 'Alencar'];
-    const arry2: ReadonlyArray<string> = ['Igor', 'Alencar'];
+//Só para leitura não poder ser manipulado
+const array: readonly string[] = ['Igor', 'Alencar'];
+const arry2: ReadonlyArray<string> = ['Igor', 'Alencar'];
 
-    console.log(array);
-    console.log(arry2);
+console.log(array);
+console.log(arry2);
