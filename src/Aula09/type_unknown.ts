@@ -16,7 +16,7 @@ let y = 100;
 // console.log(x + y) // essa linha não será executa, ela recebe não só numbers 
 // porem se criarmos uma condição ela executa
 
-if(typeof x === 'number') console.log(x + y);
+if (typeof x === 'number') console.log(x + y);
 
 // unknown é um any mais seguro
 // ele vai te forçar a fazer a checagem dos tipos,
