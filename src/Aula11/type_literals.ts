@@ -43,6 +43,9 @@
     const people2 = { name: 'Marilha' as const,  sobrenome: 'Gomes' }
     // people2.name = 'Ester' // não sera possivel trocar 
 
+// Mais seguro que enum
+
+export function escolhaCor(cor: 'AZUL' | 'AMARELO' | 'VERDE'):string {return cor;}
 
 
 // module mode
