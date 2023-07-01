@@ -45,8 +45,10 @@
 
 // Mais seguro que enum
 
-export function escolhaCor(cor: 'AZUL' | 'AMARELO' | 'VERDE'):string {return cor;}
+    // export function escolhaCor(cor: 'AZUL' | 'AMARELO' | 'VERDE' | string ): string {return cor;}
+    export function escolhaCor(cor: 'AZUL' | 'AMARELO' | 'VERDE' ): string {return cor;}
+    console.log(escolhaCor('AZUL')); // AZUL
 
 
 // module mode
-    export default 1;
+export default 1;
