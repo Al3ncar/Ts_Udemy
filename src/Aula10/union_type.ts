@@ -21,9 +21,9 @@ function addOrConcat(
     return `${x} ${y}`
 }
 
-
 console.log(addOrConcat(10, 90)); // soma
 console.log(addOrConcat("10", "90")); // 10 90
 console.log(addOrConcat("10", 90)); // 10 90
 console.log(addOrConcat(10, "90")); // 10 90
 console.log(addOrConcat(true, false)); // true false
+
