@@ -153,7 +153,7 @@ enum Cores8{
     BRANCO, 
 }
 
-function escolhaACor(cor: Cores8): void{
+export function escolhaACor(cor: Cores8): void{
     console.log(Cores8[cor])
 } 
 
