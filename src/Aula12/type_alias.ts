@@ -23,10 +23,18 @@ type CorCMYK = 'Ciano' | 'Magenta' | 'Amarelo' | 'Preto'
 
 type CorPreferida = CorRGB | CorCMYK;
 
+// Para que o tipo seja inserido no meu objeto basta colocar
+// na frente do nome da const|let os ":" com o nome do tipo 
+// que voce crio.
+
+
+// ex: 
+
+// em TS quando quisermos separa um numero grande podemos usar o "_"
 const people: People = {
     name:'Maria',
     idade: idade,
-    salario: 200_000_000
+    salario: 200_000_000 // 200000000
 }
 
 
