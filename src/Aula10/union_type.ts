@@ -27,3 +27,9 @@ console.log(addOrConcat("10", 90)); // 10 90
 console.log(addOrConcat(10, "90")); // 10 90
 console.log(addOrConcat(true, false)); // true false
 
+// Melhor exemplo de union Type:
+
+type CorRGB = 'Vermelho' | 'Verde' | 'Azul'  
+type CorCMYK = 'Ciano' | 'Magenta' | 'Amarelo' | 'Preto'
+
+type CorPreferida = CorRGB | CorCMYK;
