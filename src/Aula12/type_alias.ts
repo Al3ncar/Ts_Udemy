@@ -23,6 +23,19 @@ type CorCMYK = 'Ciano' | 'Magenta' | 'Amarelo' | 'Preto'
 
 type CorPreferida = CorRGB | CorCMYK;
 
+const people: People = {
+    name:'Maria',
+    idade: idade,
+    salario: 200_000_000
+}
 
-// module mode
-export default 1;
+
+export function setCorPreferida(people: People, cor: CorPreferida): People{
+    return {...people, corPreferida: cor}
+}
+
+console.log(setCorPreferida(people, 'Ciano'))
+console.log(setCorPreferida(people, 'Azul'))
+console.log(setCorPreferida(people, 'Vermelho'))
+console.log(setCorPreferida(people, 'Preto'))
+console.log(people);
