@@ -21,7 +21,7 @@ console.log('') // espaço no console
 console.log('') // espaço no console
 
 
-// Quando criamos um enem de string 
+// Quando criamos um enum de string 
 // ele tambem cria um enum de numbers 
 
 enum Cores2 {
@@ -103,9 +103,9 @@ enum Cores6 {
     LARANJA = 10,
     DOURADO = 100,
     PRATA = 200,
-    PRETO = 'PRETO',
-    AMARELO = 300, // executa um erro por não saber qual a proxima sequencia
-    BRANCO, 
+    PRETO = 'PRETO', // executa um erro por não saber qual a proxima sequencia
+    AMARELO = 300, // NÃO EXECUTA ERRO, POR SABER QUE O INDICE É 300
+    BRANCO, // INDICE: 300
 }
 
 console.log(Cores6.PRETO)
